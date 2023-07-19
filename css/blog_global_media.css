@@ -1,0 +1,19 @@
+@media (max-width: 1742px)  {
+
+    .title {
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 32px;
+    }
+
+}
+
+@media (max-width: 1339px)  {
+
+    .title {
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 32px;
+    }
+
+}

@@ -1,0 +1,39 @@
+@media (max-width: 1742px)  {
+
+    .header {
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .header-top-logo-link__img {
+        width: 120px;
+    }
+
+    .header-top__heading {
+        font-size: 35px;
+        line-height: 35px;
+       
+    }
+
+}
+
+@media (max-width: 1339px)  {
+
+    .header {
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .header-top-logo-link__img {
+        width: 120px;
+    }
+
+    .header-top__heading {
+        font-size: 35px;
+        line-height: 35px;
+       
+    }
+       
+}

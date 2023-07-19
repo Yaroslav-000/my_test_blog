@@ -1,0 +1,36 @@
+.numbering {
+    flex-direction: column;
+}
+
+.numbering__block {
+    margin-right: var(--internal-margins);
+    padding: 20px 0px 12px 20px;
+    margin-bottom: var(--internal-margins);
+    justify-content: space-around;
+    background-color: var(--blue);
+    border-radius: var(--rounding);
+}
+
+.numbering-first__link, .numbering__initial-ellipsis, .numbering-positions__link, .numbering__finite-ellipsis, .snumbering-last__link {
+    margin: 0;
+    margin-bottom: var(--elements-margins);
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    color: var(--green);
+}
+
+.numbering-current-positions__link {
+    margin: 0;
+    margin-bottom: var(--elements-margins);
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    color: var(--pink);
+}
+
+a.links:active, a.links:hover, a.links {
+    text-decoration: none;
+}

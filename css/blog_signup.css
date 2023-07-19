@@ -1,0 +1,64 @@
+
+.errors {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: var(--internal-margins);
+    padding: 20px;
+    font-size: 22px;
+    line-height: 22px;
+    align-items: center;
+    justify-content: space-around;
+    color: aliceblue;
+    background-color: brown;
+    border-radius: var(--rounding);
+}
+
+.cuc-regi {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: var(--internal-margins);
+    padding: 20px;
+    font-size: 22px;
+    line-height: 22px;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--green);
+    background-color: var(--blue);
+    border-radius: var(--rounding);
+}
+
+.regi {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+    width: 300px;
+    background-color: var(--blue);
+    border-radius: var(--rounding);
+}
+
+.regi__form {
+    flex-direction: column;
+    align-items: center;
+}
+
+.regi-form__name, .regi-form__file, .regi-form__pas-1, .regi-form__pas-2 {
+    flex-direction: column;
+    align-items: center;
+}
+
+.regi-form-name__title, .regi-form-file__title, .regi-form-pas-1__title, .regi-form-pas-2__title, .regi-form-avto-autho__title {
+    font-size: 22px;
+    line-height: 22px;
+    color: var(--green);
+}
+
+.regi-form__avto-autho {
+    align-items: center;
+}
+
+
+.regi-form-avto-autho__title {
+    width: 200px;
+}
+

@@ -1,0 +1,103 @@
+.errors {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: var(--internal-margins);
+    padding: 20px;
+    font-size: 22px;
+    line-height: 22px;
+    align-items: center;
+    justify-content: space-around;
+    color: aliceblue;
+    background-color: brown;
+    border-radius: var(--rounding);
+}
+
+.cuc-creat {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: var(--internal-margins);
+    padding: 20px;
+    font-size: 22px;
+    line-height: 22px;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--green);
+    background-color: var(--blue);
+    border-radius: var(--rounding);
+}
+
+.creature {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+    width: 300px;
+    background-color: var(--blue);
+    border-radius: var(--rounding);
+}
+
+.creature__form {
+    flex-direction: column;
+    align-items: center;
+}
+
+.creature-form__name, .creature-form__file, .creature-form__text, .creature-form__categ {
+    flex-direction: column;
+    align-items: center;
+}
+
+.creature-form-name__title, .creature-form-file__title, .creature-form-text__title, .creature-form-categ__title, .creature-form-avto-autho__title {
+    font-size: 22px;
+    line-height: 22px;
+    color: var(--green);
+}
+
+.creature-form__text {
+    margin-bottom: var(--elements-margins);
+}
+
+.creature-form-text__textarea {
+    width: 300px;
+    height: 100px;
+    resize: vertical; 
+}
+
+.creature-form-text__symbols {
+    font-size: 22px;
+    line-height: 22px;
+    color: var(--green);
+}
+
+
+
+
+
+
+
+.creature-form-file-preview__img {
+    width: 300px;
+    border-radius: var(--rounding);
+}
+
+
+/* Уникальная стилизация кнопок формы только с помошью CSS */
+
+.creature-form-file__inp-custom::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .creature-form-file__inp-custom::before {
+    content: 'Обновить изображение';
+    display: inline-block;
+    background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    /* -webkit-user-select: none; */
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+  }
+

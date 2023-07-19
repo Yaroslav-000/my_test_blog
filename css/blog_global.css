@@ -1,0 +1,62 @@
+/* global colors */
+
+:root {
+    --green: #00F43F;
+    --blue: #4346B4;
+    --pink: #EC687A;
+}
+
+/* global values */
+
+:root {
+    --internal-margins: 60px;
+    --rounding: 32px;
+    --elements-margins: 20px;
+}
+
+/* global */
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.btn-reset {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+}
+
+.svg {
+    width: 40px;
+    height: 40px;
+    stroke: var(--green);
+    fill: var(--green);
+}
+
+a.link:active, a.link:hover, a.link {
+    text-decoration: none;
+    color: var(--blac);
+}
+
+.title {
+    margin: 0;
+    margin-bottom: var(--elements-margins);
+    text-align: center;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 32px;
+    color: var(--green);
+    
+}
+
+body {
+    background: linear-gradient(0deg, #00E5E6, #F4B527);
+    background-attachment: fixed;
+}

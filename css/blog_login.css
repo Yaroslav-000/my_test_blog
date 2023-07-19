@@ -1,0 +1,54 @@
+.errors {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: var(--internal-margins);
+    padding: 20px;
+    font-size: 22px;
+    line-height: 22px;
+    align-items: center;
+    justify-content: space-around;
+    color: aliceblue;
+    background-color: brown;
+    border-radius: var(--rounding);
+}
+
+.cuc-regi {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: var(--internal-margins);
+    padding: 20px;
+    font-size: 22px;
+    line-height: 22px;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--green);
+    background-color: var(--blue);
+    border-radius: var(--rounding);
+}
+
+.log {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 0px 12px 20px;
+    width: 300px;
+    background-color: var(--blue);
+    border-radius: var(--rounding);
+}
+
+.log__form {
+    flex-direction: column;
+    align-items: center;
+}
+
+.log-form__name, .log-form__pas {
+    flex-direction: column;
+    align-items: center;
+}
+
+.log-form-name__title, .log-form-pas__title, .log-form-remember__title {
+    font-size: 22px;
+    line-height: 22px;
+    color: var(--green);
+}
+
